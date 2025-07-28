@@ -411,7 +411,7 @@ body{
     }
     td{
         line-height: 1.5em;
-        margin-bottom: 16px;
+        padding-bottom: 16px;
     }
     .time{
         flex-basis: 100px;
@@ -838,6 +838,7 @@ body{
         width: 100%;
         flex-basis: 20px;
         vertical-align: top;
+        padding: 0;
     }
     .schedule_item{
         margin-bottom: 16px;
