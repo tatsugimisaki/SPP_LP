@@ -408,13 +408,13 @@ body{
     }
     .schedule p{
         display: inline-block;
+        text-align: left;
     }
     .time{
         flex-basis: 100px;
         flex-shrink: 0;
-        text-align: right;
         font-family: monospace;
-        width: 33%;
+        margin-right: 15px;
         font-size: clamp(1.8rem,2vw,2.35rem);
     }
     .schedule_item{
@@ -842,8 +842,6 @@ body{
     }
     .time{
         flex-basis: 0;
-        text-align: right;
-        width: 33%;
     }
     .schedule_item{
         margin-bottom: 16px;
