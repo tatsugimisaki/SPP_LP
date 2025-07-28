@@ -411,6 +411,7 @@ body{
     }
     td{
         line-height: 1.5em;
+        margin-bottom: 16px;
     }
     .time{
         flex-basis: 100px;
