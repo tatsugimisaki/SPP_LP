@@ -409,9 +409,11 @@ body{
     .schedule p{
         display: inline-block;
     }
+    td{
+        line-height: 1.5em;
+    }
     .time{
         flex-basis: 100px;
-        flex-shrink: 0;
         text-align: right;
         width: 33%;
         font-size: clamp(1.8rem,2vw,2.35rem);
@@ -419,14 +421,6 @@ body{
     .schedule_item{
         padding-left: 0.83vw;
         font-size: clamp(1.8rem,2vw,2.35rem);
-    }
-    .sc_item_sub{
-        font-size: clamp(1.7rem,1.7vw,2rem);
-        letter-spacing: 0.05em;
-    }
-    .job_mini{
-        font-size: clamp(2rem,1.3vw,2.5rem);
-        margin-top: 1.48vh;
     }
 
     /*勤務地*/
@@ -834,27 +828,19 @@ body{
     .job_title span{
         font-size: max(5.2vw,2.5rem);
     }
-    .schedule li{
+    tr{
         display: flex;
         flex-direction: column;
     }
-    .schedule p{
-        text-align: left;
-        width:100%;
-        height: auto;
-    }
     .time{
-        flex-basis: 0;
-        text-align: right;
-        width: 33%;
+        text-align: left;
+        width: 100%;
+        flex-basis: 20px;
+        vertical-align: top;
     }
     .schedule_item{
         margin-bottom: 16px;
         padding-left: 16px;
-    }
-    .sc_item_sub{
-        font-size: clamp(1.7rem,1.7vw,2rem);
-        letter-spacing: 0.05em;
     }
     .work_place_container{
         padding: 1vh 2.7vw;
@@ -940,6 +926,9 @@ body{
         left: 6.7vw;
         top: 50%;
         transform:translate(0,-50%);
+    }
+    .sc_item_two{
+        font-size: max(2vw,1.6rem);
     }
     .work_place_container{
         gap: 1.7vw;
