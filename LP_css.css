@@ -421,10 +421,6 @@ body{
         padding-left: 0.83vw;
         font-size: clamp(1.8rem,2vw,2.35rem);
     }
-    .sc_item_sub{
-        font-size: clamp(1.7rem,1.7vw,2rem);
-        letter-spacing: 0.05em;
-    }
     .job_mini{
         font-size: clamp(2rem,1.3vw,2.5rem);
         margin-top: 1.48vh;
@@ -853,10 +849,6 @@ body{
         margin-bottom: 16px;
         padding-left: 16px;
     }
-    .sc_item_sub{
-        font-size: clamp(1.7rem,1.7vw,2rem);
-        letter-spacing: 0.05em;
-    }
     .work_place_container{
         padding: 1vh 2.7vw;
         gap: 2.7vw;
@@ -942,15 +934,12 @@ body{
         top: 50%;
         transform:translate(0,-50%);
     }
+    .sc_item_sub{
+        font-size: clamp(1.7rem,1.7vw,2rem);
+        letter-spacing: 0.05em;
+    }
     .work_place_container{
         gap: 1.7vw;
-    }
-    .corporate, .privacy{
-        display: block;
-        margin: 0;
-    }
-    .corporate{
-        margin-bottom: 1.481vh;
     }
     .area_name{
         font-size: clamp(2.4rem,7.96vw,3.8rem);
